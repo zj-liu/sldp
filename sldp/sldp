@@ -285,7 +285,7 @@ def preprocess_sannots(args):
             args_.chroms = unprocessed_chroms
             sldp.preprocessannot.main(args_)
 
-            print('== finished preprocessing annotation', sanno)
+            print('== finished preprocessing annotation', sannot)
 
 
 if __name__ == '__main__':
